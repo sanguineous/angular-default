@@ -1,10 +1,10 @@
 {
-  "name": "angular-directive-template",
-  "version": "0.0.8",
+  "name": "angular-default-directive",
+  "version": "0.0.1",
   "authors": [
-    "Mohsen Azimi <mazimi@apigee.com>"
+    "Enrico Sanguin <enrico.sanguin@gmail.com>"
   ],
-  "description": "Angular Publishable Directive Template",
+  "description": "Angular default directive",
   "main": "dist/directive.js, dist/directive.js",
   "license": "MIT",
   "private": false,

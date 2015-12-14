@@ -1,8 +1,8 @@
 {
-  "name": "angular-directive-boilerplate",
-  "version": "0.0.8",
-  "description": "Angular Publishable Directive Boilerplate",
-  "repository": "git@github.com:mohsen1/angular-directive-boilerplate.git",
+  "name": "angular-default",
+  "version": "0.0.1",
+  "description": "Angular default directive",
+  "repository": "git@github.com:mohsen1/angular-default.git",
   "main": "dist/directive.js",
   "scripts": {
     "test": "./node_modules/gulp/bin/gulp.js test"
@@ -12,7 +12,7 @@
     "angular",
     "directive"
   ],
-  "author": "Mohsen Azimi",
+  "author": "Enrico Sanguin",
   "license": "MIT",
   "devDependencies": {
     "del": "^0.1.3",
