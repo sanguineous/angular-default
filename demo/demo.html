@@ -1,0 +1,32 @@
+<!doctype html>
+<html ng-app="demo">
+  <head>
+    <meta charset="utf-8">
+    <title>es-default directive demo</title>
+
+    <!-- TODO: Include Angular from Bower components -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-sanitize.js"></script>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css">
+
+    <link rel="stylesheet" href="demo.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-muted">Demo</h1>
+
+      <div class="usage row" ng-controller="demoController">
+        <h4>Simple usage</h4>
+        <p>This is a simple usage of the directive</p>
+        <pre>&lt;p&gt;Name: &lt;input type=&quot;text&quot; ng-model=&quot;name&quot; es-default=&quot;getDefName()&quot;/&gt;&lt;/p&gt;<br>&lt;p&gt;&lt;button ng-click=&quot;name = undefined;&quot;&gt;Reset form&lt;/button&gt;&lt;/p&gt;
+        </pre>
+        <h4>Results</h4>
+        <p>Name: <input type="text" ng-model="name" es-default="getDefName()"/></p>
+          <p><button ng-click="name = undefined;">Reset form</button></p>
+      </div>
+    </div>
+
+    <script src="../src/directive.js"></script>
+    <script src="demo.js"></script>
+  </body>
+</html>
